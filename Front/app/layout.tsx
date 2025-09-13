@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MarkaGroup",
-  description: "Grupo Marka app",
+  title: "LocalTrip",
+  description: "LocalTrip app",
 };
 
 export default function RootLayout({
