@@ -7,40 +7,6 @@ function reditect() {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-800 font-sans">
-      {/* Header */}
-      <header className="flex justify-between items-center px-6 py-4 bg-white shadow-md">
-        <div className="text-xl font-bold">Mi App</div>
-        <nav>
-          <ul className="flex space-x-6">
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Reportes
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Preferencias
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Contacto
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
       {/* Contenido principal */}
       <main className="flex-1 flex flex-col items-center justify-center py-10 px-4 space-y-8">
         {/* Mapa */}
