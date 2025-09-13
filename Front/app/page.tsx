@@ -5,7 +5,6 @@ import Register from "./componets/organisms/Register";
 import Login from "./componets/organisms/Login";
 
 import { useEffect, useState } from "react";
-import LoginBanner from "./componets/organisms/LoginBanner";
 
 function useSearchParams() {
   const [params, setParams] = useState<URLSearchParams | null>(null);
